@@ -2,203 +2,203 @@
 <testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-10T21:22:53 IST" name="Inventory System Test Suite" finished-at="2026-03-10T21:22:54 IST" duration-ms="655">
+  <suite started-at="2026-03-10T21:49:41 IST" name="Inventory System Test Suite" finished-at="2026-03-10T21:49:42 IST" duration-ms="598">
     <groups>
     </groups>
-    <test started-at="2026-03-10T21:22:53 IST" name="Controller Tests" finished-at="2026-03-10T21:22:54 IST" duration-ms="655">
+    <test started-at="2026-03-10T21:49:41 IST" name="Controller Tests" finished-at="2026-03-10T21:49:42 IST" duration-ms="598">
       <class name="com.inventory.controller.InventoryControllerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:53 IST" name="setUp" finished-at="2026-03-10T21:22:53 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:41 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddProduct()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:53 IST" name="testAddProduct" finished-at="2026-03-10T21:22:53 IST" duration-ms="16" status="PASS">
+        <test-method signature="testAddProduct()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:42 IST" name="testAddProduct" finished-at="2026-03-10T21:49:42 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddProduct -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:53 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testListProductsWhenEmpty()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:54 IST" name="testListProductsWhenEmpty" finished-at="2026-03-10T21:22:54 IST" duration-ms="5" status="PASS">
+        <test-method signature="testListProductsWhenEmpty()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:42 IST" name="testListProductsWhenEmpty" finished-at="2026-03-10T21:49:42 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListProductsWhenEmpty -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testListProductsWithData()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:54 IST" name="testListProductsWithData" finished-at="2026-03-10T21:22:54 IST" duration-ms="12" status="PASS">
+        <test-method signature="testListProductsWithData()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:42 IST" name="testListProductsWithData" finished-at="2026-03-10T21:49:42 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListProductsWithData -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testRemoveProduct()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:22:54 IST" name="testRemoveProduct" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="testRemoveProduct()[pri:0, instance:com.inventory.controller.InventoryControllerTest@71c8becc]" started-at="2026-03-10T21:49:42 IST" name="testRemoveProduct" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveProduct -->
       </class> <!-- com.inventory.controller.InventoryControllerTest -->
       <class name="com.inventory.controller.OrderControllerTest">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="beforeClass" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="beforeClass" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testListOrders()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="testListOrders" finished-at="2026-03-10T21:22:54 IST" duration-ms="25" status="PASS">
+        <test-method signature="testListOrders()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="testListOrders" finished-at="2026-03-10T21:49:42 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListOrders -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="testPlaceOrderInsufficientStock()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="testPlaceOrderInsufficientStock" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method signature="testPlaceOrderInsufficientStock()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="testPlaceOrderInsufficientStock" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPlaceOrderInsufficientStock -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="testPlaceOrderProductNotFound()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="testPlaceOrderProductNotFound" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testPlaceOrderProductNotFound()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="testPlaceOrderProductNotFound" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPlaceOrderProductNotFound -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="testPlaceOrderSuccess()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="testPlaceOrderSuccess" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPlaceOrderSuccess()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="testPlaceOrderSuccess" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPlaceOrderSuccess -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:22:54 IST" name="afterClass" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="afterClass" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.OrderControllerTest@78e94dcf]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.inventory.controller.OrderControllerTest -->
       <class name="com.inventory.controller.BDDInventoryTest">
-        <test-method signature="givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease()[pri:0, instance:com.inventory.controller.BDDInventoryTest@5db250b4]" started-at="2026-03-10T21:22:54 IST" name="givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method signature="givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease()[pri:0, instance:com.inventory.controller.BDDInventoryTest@5db250b4]" started-at="2026-03-10T21:49:42 IST" name="givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.inventory.controller.BDDInventoryTest@5db250b4]" started-at="2026-03-10T21:22:54 IST" name="setup" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.inventory.controller.BDDInventoryTest@5db250b4]" started-at="2026-03-10T21:49:42 IST" name="setup" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist()[pri:0, instance:com.inventory.controller.BDDInventoryTest@5db250b4]" started-at="2026-03-10T21:22:54 IST" name="givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method signature="givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist()[pri:0, instance:com.inventory.controller.BDDInventoryTest@5db250b4]" started-at="2026-03-10T21:49:42 IST" name="givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist -->
       </class> <!-- com.inventory.controller.BDDInventoryTest -->
       <class name="com.inventory.controller.CustomerControllerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddCustomer()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="testAddCustomer" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="testAddCustomer()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="testAddCustomer" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testEmptyCustomerList()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="testEmptyCustomerList" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method signature="testEmptyCustomerList()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="testEmptyCustomerList" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptyCustomerList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="testListCustomers()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="testListCustomers" finished-at="2026-03-10T21:22:54 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testListCustomers -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testListCustomers()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="testListCustomers" finished-at="2026-03-10T21:49:42 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListCustomers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.CustomerControllerTest@37918c79]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.inventory.controller.CustomerControllerTest -->
       <class name="com.inventory.controller.SupplierControllerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddSupplier()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="testAddSupplier" finished-at="2026-03-10T21:22:54 IST" duration-ms="2" status="PASS">
+        <test-method signature="testAddSupplier()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="testAddSupplier" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddSupplier -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="testEmptySupplierList()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="testEmptySupplierList" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method signature="testEmptySupplierList()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="testEmptySupplierList" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmptySupplierList -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testListSuppliers()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="testListSuppliers" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testListSuppliers()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="testListSuppliers" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListSuppliers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="setUp" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="setUp" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="tearDown" finished-at="2026-03-10T21:22:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="testRemoveSupplier()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:22:54 IST" name="testRemoveSupplier" finished-at="2026-03-10T21:22:54 IST" duration-ms="0" status="PASS">
+        <test-method signature="testRemoveSupplier()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="testRemoveSupplier" finished-at="2026-03-10T21:49:42 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRemoveSupplier -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inventory.controller.SupplierControllerTest@233fe9b6]" started-at="2026-03-10T21:49:42 IST" name="tearDown" finished-at="2026-03-10T21:49:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.inventory.controller.SupplierControllerTest -->
     </test> <!-- Controller Tests -->
   </suite> <!-- Inventory System Test Suite -->
