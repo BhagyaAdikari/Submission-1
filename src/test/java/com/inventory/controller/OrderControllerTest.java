@@ -46,6 +46,9 @@ public class OrderControllerTest {
         System.setOut(new PrintStream(outContent));
     }
 
+    /**
+     * Test case: Verify successful order placement.
+     */
     @Test
     public void testPlaceOrderSuccess() {
         // WHEN: A valid order is placed
@@ -62,6 +65,9 @@ public class OrderControllerTest {
                 "The product quantity should be reduced after an order is successfully placed.");
     }
 
+    /**
+     * Test case: Verify behavior when placing an order with insufficient stock.
+     */
     @Test
     public void testPlaceOrderInsufficientStock() {
         // WHEN: An order is placed for more quantity than available in the fixture (15
@@ -78,6 +84,9 @@ public class OrderControllerTest {
                 "The product quantity should not change if the order fails.");
     }
 
+    /**
+     * Test case: Verify behavior when placing an order for a non-existent product.
+     */
     @Test
     public void testPlaceOrderProductNotFound() {
         // WHEN: An order is placed for a product ID not in the fixture
@@ -89,6 +98,9 @@ public class OrderControllerTest {
                 "Expected a 'Product not found' message.");
     }
 
+    /**
+     * Test case: Verify listing of all placed orders.
+     */
     @Test
     public void testListOrders() {
         // GIVEN: Multiple orders are placed
