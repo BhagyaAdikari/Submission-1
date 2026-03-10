@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-09T19:30:30 IST" name="Default suite" finished-at="2026-03-09T19:30:32 IST" duration-ms="1266">
+    <groups>
+    </groups>
+    <test started-at="2026-03-09T19:30:30 IST" name="Default test" finished-at="2026-03-09T19:30:32 IST" duration-ms="1266">
+      <class name="com.inventory.controller.InventoryControllerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:30 IST" name="setUp" finished-at="2026-03-09T19:30:31 IST" duration-ms="998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddProduct()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:31 IST" name="testAddProduct" finished-at="2026-03-09T19:30:31 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProduct -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:32 IST" name="setUp" finished-at="2026-03-09T19:30:32 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testListProductsWhenEmpty()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:32 IST" name="testListProductsWhenEmpty" finished-at="2026-03-09T19:30:32 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListProductsWhenEmpty -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:32 IST" name="setUp" finished-at="2026-03-09T19:30:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testListProductsWithData()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:32 IST" name="testListProductsWithData" finished-at="2026-03-09T19:30:32 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListProductsWithData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:32 IST" name="setUp" finished-at="2026-03-09T19:30:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveProduct()[pri:0, instance:com.inventory.controller.InventoryControllerTest@cd3fee8]" started-at="2026-03-09T19:30:32 IST" name="testRemoveProduct" finished-at="2026-03-09T19:30:32 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveProduct -->
+      </class> <!-- com.inventory.controller.InventoryControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
