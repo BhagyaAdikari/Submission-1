@@ -421,7 +421,7 @@ data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testListOrders')
 data.setCell(0, 2, 'com.inventory.controller.OrderControllerTest')
-data.setCell(0, 3, 27);
+data.setCell(0, 3, 25);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testAddProduct')
 data.setCell(1, 2, 'com.inventory.controller.InventoryControllerTest')
@@ -429,33 +429,33 @@ data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testListProductsWithData')
 data.setCell(2, 2, 'com.inventory.controller.InventoryControllerTest')
-data.setCell(2, 3, 9);
+data.setCell(2, 3, 12);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testListCustomers')
-data.setCell(3, 2, 'com.inventory.controller.CustomerControllerTest')
+data.setCell(3, 1, 'testListProductsWhenEmpty')
+data.setCell(3, 2, 'com.inventory.controller.InventoryControllerTest')
 data.setCell(3, 3, 5);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testListProductsWhenEmpty')
-data.setCell(4, 2, 'com.inventory.controller.InventoryControllerTest')
-data.setCell(4, 3, 4);
+data.setCell(4, 1, 'testListCustomers')
+data.setCell(4, 2, 'com.inventory.controller.CustomerControllerTest')
+data.setCell(4, 3, 5);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testListSuppliers')
+data.setCell(5, 1, 'testAddSupplier')
 data.setCell(5, 2, 'com.inventory.controller.SupplierControllerTest')
 data.setCell(5, 3, 2);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testAddCustomer')
-data.setCell(6, 2, 'com.inventory.controller.CustomerControllerTest')
+data.setCell(6, 1, 'testPlaceOrderProductNotFound')
+data.setCell(6, 2, 'com.inventory.controller.OrderControllerTest')
 data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testEmptySupplierList')
-data.setCell(7, 2, 'com.inventory.controller.SupplierControllerTest')
+data.setCell(7, 1, 'testAddCustomer')
+data.setCell(7, 2, 'com.inventory.controller.CustomerControllerTest')
 data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist')
-data.setCell(8, 2, 'com.inventory.controller.BDDInventoryTest')
+data.setCell(8, 1, 'testEmptyCustomerList')
+data.setCell(8, 2, 'com.inventory.controller.CustomerControllerTest')
 data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testAddSupplier')
+data.setCell(9, 1, 'testListSuppliers')
 data.setCell(9, 2, 'com.inventory.controller.SupplierControllerTest')
 data.setCell(9, 3, 1);
 data.setCell(10, 0, 10)
@@ -467,30 +467,30 @@ data.setCell(11, 1, 'testPlaceOrderInsufficientStock')
 data.setCell(11, 2, 'com.inventory.controller.OrderControllerTest')
 data.setCell(11, 3, 0);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testPlaceOrderProductNotFound')
+data.setCell(12, 1, 'testPlaceOrderSuccess')
 data.setCell(12, 2, 'com.inventory.controller.OrderControllerTest')
 data.setCell(12, 3, 0);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testPlaceOrderSuccess')
-data.setCell(13, 2, 'com.inventory.controller.OrderControllerTest')
+data.setCell(13, 1, 'testRemoveSupplier')
+data.setCell(13, 2, 'com.inventory.controller.SupplierControllerTest')
 data.setCell(13, 3, 0);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testRemoveSupplier')
+data.setCell(14, 1, 'testEmptySupplierList')
 data.setCell(14, 2, 'com.inventory.controller.SupplierControllerTest')
 data.setCell(14, 3, 0);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testEmptyCustomerList')
-data.setCell(15, 2, 'com.inventory.controller.CustomerControllerTest')
+data.setCell(15, 1, 'givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease')
+data.setCell(15, 2, 'com.inventory.controller.BDDInventoryTest')
 data.setCell(15, 3, 0);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease')
+data.setCell(16, 1, 'givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist')
 data.setCell(16, 2, 'com.inventory.controller.BDDInventoryTest')
 data.setCell(16, 3, 0);
 window.suiteTableData['Inventory_System_Test_Suite']= { tableData: data, tableDiv: 'times-div-Inventory_System_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 68 ms</span>
+              <span class="suite-total-time">Total running time: 70 ms</span>
               <div id="times-div-Inventory_System_Test_Suite">
               </div> <!-- times-div-Inventory_System_Test_Suite -->
             </div> <!-- times-div -->
@@ -523,201 +523,195 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAddProduct</span>
-                <span class="method-start">518 ms</span>
+                <span class="method-start">527 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">535 ms</span>
+                <span class="method-start">544 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testListProductsWhenEmpty</span>
-                <span class="method-start">539 ms</span>
+                <span class="method-start">548 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">543 ms</span>
+                <span class="method-start">554 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testListProductsWithData</span>
-                <span class="method-start">543 ms</span>
+                <span class="method-start">554 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">554 ms</span>
+                <span class="method-start">567 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testRemoveProduct</span>
-                <span class="method-start">554 ms</span>
+                <span class="method-start">567 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inventory.controller.BDDInventoryTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup</span>
-                <span class="method-start">556 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease</span>
-                <span class="method-start">557 ms</span>
+                <span class="method-start">570 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">570 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist</span>
-                <span class="method-start">557 ms</span>
+                <span class="method-start">571 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inventory.controller.CustomerControllerTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">558 ms</span>
+                <span class="method-start">572 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAddCustomer</span>
-                <span class="method-start">559 ms</span>
+                <span class="method-start">573 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">560 ms</span>
+                <span class="method-start">574 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">560 ms</span>
+                <span class="method-start">575 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testEmptyCustomerList</span>
-                <span class="method-start">561 ms</span>
+                <span class="method-start">580 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">561 ms</span>
+                <span class="method-start">581 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testListCustomers</span>
-                <span class="method-start">561 ms</span>
+                <span class="method-start">581 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">561 ms</span>
+                <span class="method-start">581 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">586 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inventory.controller.OrderControllerTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">566 ms</span>
+                <span class="method-start">587 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.inventory.controller.CustomerControllerTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">566 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.inventory.controller.OrderControllerTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">566 ms</span>
+                <span class="method-start">587 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testListOrders</span>
-                <span class="method-start">567 ms</span>
+                <span class="method-start">588 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">613 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">594 ms</span>
+                <span class="method-start">613 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testPlaceOrderInsufficientStock</span>
-                <span class="method-start">595 ms</span>
+                <span class="method-start">614 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">595 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">595 ms</span>
+                <span class="method-start">614 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testPlaceOrderProductNotFound</span>
-                <span class="method-start">596 ms</span>
+                <span class="method-start">615 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">615 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">596 ms</span>
+                <span class="method-start">616 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">596 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">596 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPlaceOrderSuccess</span>
-                <span class="method-start">597 ms</span>
+                <span class="method-start">617 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">597 ms</span>
-              </div> <!-- configuration-class after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">597 ms</span>
+                <span class="method-start">617 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">618 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.inventory.controller.SupplierControllerTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">598 ms</span>
+                <span class="method-start">619 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAddSupplier</span>
-                <span class="method-start">598 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testEmptySupplierList</span>
-                <span class="method-start">599 ms</span>
+                <span class="method-start">619 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">599 ms</span>
+                <span class="method-start">622 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">599 ms</span>
+                <span class="method-start">623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">600 ms</span>
+                <span class="method-start">624 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testEmptySupplierList</span>
+                <span class="method-start">624 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">600 ms</span>
+                <span class="method-start">624 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testListSuppliers</span>
-                <span class="method-start">600 ms</span>
+                <span class="method-start">624 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">625 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">602 ms</span>
+                <span class="method-start">626 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">602 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">602 ms</span>
+                <span class="method-start">626 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testRemoveSupplier</span>
-                <span class="method-start">602 ms</span>
+                <span class="method-start">626 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
