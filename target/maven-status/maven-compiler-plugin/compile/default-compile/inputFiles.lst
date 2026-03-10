@@ -1,11 +1,11 @@
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\controller\SupplierController.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\router\InventoryRoutes.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\model\Product.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\model\Customer.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\model\Inventory.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\controller\CustomerController.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\controller\InventoryController.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\model\Supplier.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\model\Order.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\App.java
-C:\Users\Govindi Tharshika\Desktop\SEPQM\Submission-1\src\main\java\com\inventory\controller\OrderController.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\controller\SupplierController.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\model\Customer.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\controller\CustomerController.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\App.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\controller\InventoryController.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\model\Product.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\controller\OrderController.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\model\Supplier.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\router\InventoryRoutes.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\model\Order.java
+D:\SLIIT\3rd Year 2nd Semester\SEPQM - SE3010\Submission 1\src\main\java\com\inventory\model\Inventory.java
