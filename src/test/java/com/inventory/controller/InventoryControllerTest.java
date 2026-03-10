@@ -19,7 +19,7 @@ import static org.mockito.Mockito.*;
 
 public class InventoryControllerTest {
 
-    // Mock the Inventory dependency to isolate the Controller's logic
+    // Mocking or stubbing implementation - IT23360396
     @Mock
     private Inventory inventory;
 
@@ -30,6 +30,7 @@ public class InventoryControllerTest {
     // Capture system output to verify console messages
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
+    // Fixtures or setup/teardown implementation - it23243644
     @BeforeMethod
     public void setUp() {
         // Initialize Mockito annotations
@@ -49,17 +50,19 @@ public class InventoryControllerTest {
         // Act: Call the method under test
         inventoryController.addProduct(id, name, price, quantity);
 
-        // Assert: Verify that inventory.addProduct was called once with any Product object
+        // Assert: Verify that inventory.addProduct was called once with any Product
+        // object
         ArgumentCaptor<Product> productCaptor = ArgumentCaptor.forClass(Product.class);
         verify(inventory, times(1)).addProduct(productCaptor.capture());
-        
+
         // Verify the properties of the Product object passed to the mock
         Product addedProduct = productCaptor.getValue();
+        // Assertions implementation - IT23241732
         Assert.assertEquals(addedProduct.getId(), id);
         Assert.assertEquals(addedProduct.getName(), name);
         Assert.assertEquals(addedProduct.getPrice(), price);
         Assert.assertEquals(addedProduct.getQuantity(), quantity);
-        
+
         // Check if the success message was printed to the console
         Assert.assertTrue(outputStreamCaptor.toString().contains("Product added successfully: Laptop"));
     }
