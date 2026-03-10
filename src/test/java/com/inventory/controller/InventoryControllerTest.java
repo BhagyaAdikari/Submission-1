@@ -39,7 +39,7 @@ public class InventoryControllerTest {
         System.setOut(new PrintStream(outputStreamCaptor));
     }
 
-    @Test
+    @Test(description = "Verify that a product can be added to the inventory via the controller - IT23171992")
     public void testAddProduct() {
         // Arrange: Prepare test data
         String id = "P001";
@@ -57,7 +57,7 @@ public class InventoryControllerTest {
 
         // Verify the properties of the Product object passed to the mock
         Product addedProduct = productCaptor.getValue();
-        // Assertions implementation - IT23241732
+        // Assertions implementation - IT23171992
         Assert.assertEquals(addedProduct.getId(), id);
         Assert.assertEquals(addedProduct.getName(), name);
         Assert.assertEquals(addedProduct.getPrice(), price);
@@ -67,7 +67,7 @@ public class InventoryControllerTest {
         Assert.assertTrue(outputStreamCaptor.toString().contains("Product added successfully: Laptop"));
     }
 
-    @Test
+    @Test(description = "Verify that a product can be removed from the inventory via the controller - IT23171992")
     public void testRemoveProduct() {
         // Arrange
         String id = "P001";
@@ -80,7 +80,7 @@ public class InventoryControllerTest {
         Assert.assertTrue(outputStreamCaptor.toString().contains("Product removed successfully: P001"));
     }
 
-    @Test
+    @Test(description = "Verify list products when inventory is empty - IT23171992")
     public void testListProductsWhenEmpty() {
         // Arrange: Stub the mock to return an empty list
         when(inventory.getAllProducts()).thenReturn(Collections.emptyList());
@@ -93,7 +93,7 @@ public class InventoryControllerTest {
         Assert.assertTrue(outputStreamCaptor.toString().contains("Inventory is empty."));
     }
 
-    @Test
+    @Test(description = "Verify list products shows added data correctly - IT23171992")
     public void testListProductsWithData() {
         // Arrange: Stub the mock to return a list with one product
         Product product = new Product("P001", "Laptop", 1500.0, 10);

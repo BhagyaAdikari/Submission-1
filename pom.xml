@@ -26,6 +26,12 @@
             <version>4.0.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- ExtentReports for beautiful test reports - IT23241732 -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
+        </dependency>
     </dependencies>
 
     <build>

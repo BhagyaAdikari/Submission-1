@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 /**
  * Behaviour-Driven Development (BDD) syntax implementation - it23241732
- * This class also demonstrates Assertions - IT23241732
+ * This class also demonstrates Assertions - IT23171992
  */
 public class BDDInventoryTest {
 
@@ -22,7 +22,7 @@ public class BDDInventoryTest {
         inventoryController = new InventoryController(inventory);
     }
 
-    @Test
+    @Test(description = "Verify that adding a new product increases the inventory count - it23241732")
     public void givenAnEmptyInventory_whenAProductIsAdded_thenTheTotalCountShouldIncrease() {
         // BDD syntax - it23241732
 
@@ -35,7 +35,7 @@ public class BDDInventoryTest {
         // Then
         int finalCount = inventory.getAllProducts().size();
 
-        // Assertions - IT23241732
+        // Assertions - IT23171992
         Assert.assertEquals(finalCount, initialCount + 1, "Inventory count should increase by 1");
 
         Product addedProduct = inventory.getProductById("P100").orElse(null);
@@ -43,7 +43,7 @@ public class BDDInventoryTest {
         Assert.assertEquals(addedProduct.getName(), "Smartphone");
     }
 
-    @Test
+    @Test(description = "Verify that removing a product from inventory works as expected - it23241732")
     public void givenInventoryWithProduct_whenProductIsRemoved_thenItShouldNoLongerExist() {
         // BDD syntax - it23241732
 
