@@ -1,0 +1,6 @@
+com\inventory\utils\TestNGListener.class
+com\inventory\controller\SupplierControllerTest.class
+com\inventory\controller\BDDInventoryTest.class
+com\inventory\controller\CustomerControllerTest.class
+com\inventory\controller\OrderControllerTest.class
+com\inventory\controller\InventoryControllerTest.class

@@ -1,0 +1,11 @@
+com\inventory\model\Supplier.class
+com\inventory\controller\CustomerController.class
+com\inventory\router\InventoryRoutes.class
+com\inventory\model\Inventory.class
+com\inventory\controller\SupplierController.class
+com\inventory\model\Product.class
+com\inventory\controller\OrderController.class
+com\inventory\model\Customer.class
+com\inventory\model\Order.class
+com\inventory\controller\InventoryController.class
+com\inventory\App.class

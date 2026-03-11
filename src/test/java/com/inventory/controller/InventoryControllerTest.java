@@ -8,6 +8,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -107,5 +108,35 @@ public class InventoryControllerTest {
         verify(inventory, times(1)).getAllProducts();
         Assert.assertTrue(outputStreamCaptor.toString().contains("Current Inventory:"));
         Assert.assertTrue(outputStreamCaptor.toString().contains("Laptop"));
+    }
+
+    // Data-Driven Testing implementation - IT23360396
+    @DataProvider(name = "productData")
+    public Object[][] productDataProvider() {
+        return new Object[][] {
+                { "P002", "Mouse", 25.0, 50 },
+                { "P003", "Keyboard", 45.0, 30 },
+                { "P004", "Monitor", 200.0, 15 }
+        };
+    }
+
+    @Test(dataProvider = "productData", description = "Verify that multiple products can be added using DataProvider - IT23360396")
+    public void testAddMultipleProducts(String id, String name, double price, int quantity) {
+        // Act
+        inventoryController.addProduct(id, name, price, quantity);
+
+        // Assert
+        ArgumentCaptor<Product> productCaptor = ArgumentCaptor.forClass(Product.class);
+        verify(inventory, atLeastOnce()).addProduct(productCaptor.capture());
+
+        Product addedProduct = productCaptor.getAllValues().stream()
+                .filter(p -> p.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+
+        // Assertions implementation - IT23171992
+        Assert.assertNotNull(addedProduct);
+        Assert.assertEquals(addedProduct.getName(), name);
+        Assert.assertTrue(outputStreamCaptor.toString().contains("Product added successfully: " + name));
     }
 }

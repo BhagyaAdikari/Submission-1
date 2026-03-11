@@ -11,6 +11,7 @@ public class CustomerControllerTest {
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
 
+    // Fixtures or setup/teardown implementation - IT23243644
     @BeforeMethod
     public void setUp() {
         // GIVEN: A new CustomerController is initialized
@@ -25,6 +26,7 @@ public class CustomerControllerTest {
 
         // THEN: The system should confirm the customer was added successfully
         String output = outContent.toString();
+        // Assertions implementation - IT23171992
         Assert.assertTrue(output.contains("Customer added successfully: John Doe"),
                 "Expected success message for adding customer 'John Doe'");
     }

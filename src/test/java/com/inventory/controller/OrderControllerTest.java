@@ -16,8 +16,7 @@ public class OrderControllerTest {
     private Inventory inventory;
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final PrintStream originalOut = System.out;
-    
-    
+
     /**
      * Fixture that runs once before all test methods in this class.
      */
@@ -28,7 +27,8 @@ public class OrderControllerTest {
 
     /**
      * Test Fixture: Initial setup before each test execution.
-     * This demonstrates the "Fixtures" feature of TestNG (using @BeforeMethod),
+     * This demonstrates the "Fixtures" feature of TestNG (using @BeforeMethod) -
+     * IT23243644,
      * where we prepare the necessary environment (Inventory and OrderController)
      * with predefined data before running EACH test case.
      */
@@ -56,6 +56,7 @@ public class OrderControllerTest {
 
         // THEN: The system should confirm success
         String output = outContent.toString();
+        // Assertions implementation - IT23171992
         Assert.assertTrue(output.contains("Order placed successfully for Laptop (Qty: 2)"),
                 "Expected success message for placing order");
 
@@ -126,7 +127,7 @@ public class OrderControllerTest {
     public void tearDown() {
         System.setOut(originalOut);
     }
-    
+
     /**
      * Fixture that runs once after all test methods.
      */
